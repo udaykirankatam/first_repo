@@ -1,1 +1,182 @@
+/* Instagram Clone Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: #fafafa;
+  color: #000;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 20px;
+}
+header .logo img {
+  height: 32px;
+}
+header .search input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+header .icons {
+  display: flex;
+  gap: 12px;
+  font-size: 22px;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+.feed {
+  flex: 2;
+  max-width: 600px;
+}
+.stories {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding: 12px 0;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #ff004c;
+  object-fit: cover;
+}
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.post-header .meta {
+  flex: 1;
+}
+.post-header .name {
+  font-weight: 600;
+}
+.post-header .place {
+  font-size: 12px;
+  color: #777;
+}
+.post-image {
+  width: 100%;
+  display: block;
+}
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.post-actions .action {
+  cursor: pointer;
+  margin-right: 8px;
+}
+.likes {
+  font-weight: 600;
+  padding: 0 10px;
+}
+.caption {
+  padding: 0 10px;
+}
+.caption .handle {
+  font-weight: 600;
+  margin-right: 6px;
+}
+.comments {
+  padding: 0 10px;
+  color: #555;
+  font-size: 14px;
+}
+.time {
+  padding: 8px 10px;
+  color: #999;
+  font-size: 11px;
+}
+.sidebar {
+  flex: 1;
+  max-width: 300px;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.profile-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile-card .me {
+  font-weight: 600;
+}
+.profile-card .switch {
+  margin-left: auto;
+  color: #0095f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+.suggestions h4 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+.suggestion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.suggestion img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.suggestion button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #0095f6;
+  cursor: pointer;
+  font-weight: 600;
+}
+:root {
+  --muted: #888;
+}
 
